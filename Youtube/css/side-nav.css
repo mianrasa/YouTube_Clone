@@ -1,0 +1,66 @@
+.side-nav{
+  position: fixed;
+  top: 55px;
+  bottom: 0px;
+  left: 0px;
+  width: 72px;
+  background-color: white;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidenav-box{
+  height:74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav-box:hover{
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.144);
+  border-radius: 20px;
+}
+
+.sidenav-box img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidenav-box div{
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+
+/* Hover */
+/* 
+.sidenav-box:hover{
+  cursor: pointer;
+}
+
+.sidenav-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sidenav-box .tooltip{
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.719);
+  color: white;
+  padding: 10px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  right: 0;
+  bottom: -50px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+} 
+
+.sidenav-box:hover .tooltip{
+  opacity: 1;
+} */
